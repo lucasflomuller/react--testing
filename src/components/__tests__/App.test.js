@@ -7,7 +7,7 @@ import CommentList from "components/CommentList";
 
 describe("<App />", () => {
   let wrapped;
-  beforeAll(() => {
+  beforeEach(() => {
     wrapped = shallow(<App />);
   });
 
